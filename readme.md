@@ -10,4 +10,7 @@ pip install playwright followed by python -m playwright install
 
 # current available command
 
-$earnings which prints all companies with earnings from 3/3 - 3/7
+$earnings_this_week which prints all companies with earnings from current business day til friday
+    specifiying ticker like this: $earnings_this_week [ticker] will give bare bones info (i can update later)
+
+$earnings_on_date [date] indicates companies that have earnings on [date] in format YYYY-MM-DD
