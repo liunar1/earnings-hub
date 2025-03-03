@@ -2,7 +2,6 @@ import nextcord
 from nextcord.ext import commands
 import json
 import requests
-import web_retrieve
 
 intents = nextcord.Intents.default()
 intents.message_content = True # this is to allow the bot to send messages
